@@ -66,10 +66,10 @@
 				echo "<td>" . $row['menu_name'] . "</td>";
 				echo "<td>" . $row['menu_desc'] . "</td>"; ?>
 				<td>
-					<form method="post" enctype="multipart/form-data" action="?edit_id=<?php echo $row['id']; ?>" style="display: inline;">
+					<!-- <form method="post" enctype="multipart/form-data" action="?edit_id=<?php echo $row['id']; ?>" style="display: inline;">
 						<input type="hidden" name="edit" value="<?php echo $row['id']; ?>">
 						<button type="submit" class="btn btn-primary" >EDIT</button>&nbsp;
-					</form>
+					</form> -->
 
 					<form method="post" style="display: inline;">
 						<input type="hidden" name="delete" value="<?php echo $row['id']; ?>">
